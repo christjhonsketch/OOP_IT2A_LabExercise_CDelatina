@@ -7,9 +7,10 @@ public class Cars{
 
     public Cars(){
         this.Color = "no color";
-        this.PlateNo = " AB123CD";
-        this.ChassisNo = " LTFRB 1234567890";
-        this.Brand = " Toyota";
+        this.PlateNo = " no plate number";
+        this.ChassisNo = " no chassis number";
+        this.Brand = " no brand";
+        this.Model = " no model";
     }
     public Cars(String Color,String PlateNo, String ChassisNo, String Brand, String Model){
         this.Color = Color;
