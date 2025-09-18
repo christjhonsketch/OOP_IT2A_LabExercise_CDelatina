@@ -1,0 +1,15 @@
+                DentalService
+                     |
+   --------------------------------------
+   |                  |                 |
+Cleaning          Extraction         Filling
+
+
+                 Appointment
+                     |
+            -------------------
+            | patientId:String
+            | name:String
+            | service:DentalService
+            | appointmentTime:String
+            -------------------
