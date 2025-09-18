@@ -1,4 +1,3 @@
-// Patient.java
 public class Patient {
     private String id;
     private String name;

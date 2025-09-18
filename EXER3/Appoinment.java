@@ -1,4 +1,3 @@
-// Appointment.java
 public class Appointment {
     private Patient patient;
     private String service;  // now just a String
