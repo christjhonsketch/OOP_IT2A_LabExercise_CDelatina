@@ -1,0 +1,28 @@
+public class DentalService {
+    protected String serviceName;
+    protected double price;
+
+    public DentalService(String serviceName, double price) {
+        this.serviceName = serviceName;
+        this.price = price;
+    }
+
+    // Method for runtime polymorphism (will be overridden)
+    public String getServiceDetails() {
+        return serviceName + " - ₱" + price;
+    }
+
+    // Compile-time polymorphism (overloading)
+    public double calculatePrice() {
+        return price;
+    }
+
+    public double calculatePrice(double discountPercent) {
+        return price - (price * discountPercent / 100);
+    }
+
+    @Override
+    public String toString() {
+        return getServiceDetails();
+    }
+}
